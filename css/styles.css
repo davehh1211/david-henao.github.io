@@ -193,15 +193,6 @@ color: #0e8a8a;
 }
 /*box of every project */
 
-@media screen and (max-width: 800px) {
-    .main .projects .container-projects {
-      flex-direction: column;
-    }
-    .main .projects .container-projects .project {
-        width: 100%;
-    }
-}
-
 .main .projects .container-projects .project .thumb {
     width: 100%;
     margin-bottom: 10px;
@@ -286,10 +277,31 @@ footer .container .contact-message {
     font-size: 1.2em;
     line-height: 1.5em;
     font-family: 'Questrial', sans-serif;
+    text-align: justify;
+    margin-bottom: 30px;
+}
+
+/* footer .contact .container .icon-container {
+    width: 300px;
+    align-content: center;
+    /* flex-direction:row; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around;
+} */
+
+footer .contact .container .icon {
+    color: #ffff;
+    margin: 0 10px;
+}
+
+footer .contact .container .icon-container .contact-text {
+    color: #ffff;
+    text-align: center;
+
 }
 
 footer .social-networks {
-    padding: 60px 0;
+    padding: 30px 0;
 }
 
 footer .container-social {
@@ -326,13 +338,25 @@ footer .social-networks .email:hover {
 footer .social-networks .twitter:hover {
     color: #1da1f2;
 }
-
+ footer .social-networks .trademark {
+     color: #ffff;
+     text-align: center;
+ }
 /*
 .container .title  */
 
+/* ----- media query ---*/
 
-
-
-
-
-
+@media screen and (max-width: 800px) {
+    
+    header .menu {
+        margin: 40px 0px;
+        text-align: center;
+    }
+    .main .projects .container-projects {
+      flex-direction: column;
+    }
+    .main .projects .container-projects .project {
+        width: 100%;
+    }
+}
