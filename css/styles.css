@@ -295,8 +295,11 @@ footer .contact .container .icon {
 }
 
 footer .contact .container .icon-container .contact-text {
-    color: #ffff;
     text-align: center;
+    color: #f2f2f2;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    font-family: 'Questrial', sans-serif;
 
 }
 
@@ -311,7 +314,7 @@ footer .container-social {
 
 footer .social-networks a {
     text-decoration: none;
-    font-size: 30px;
+    font-size: 1.9em;
     color: #ffff;
     text-align: center;
     /* width: 120px; */
