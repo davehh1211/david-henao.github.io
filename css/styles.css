@@ -89,7 +89,6 @@ header .container-text .text .proffesion {
 
 /* ------ main ------*/
 
-
 a {
     text-align: justify;
     font-size: 1em;
@@ -99,6 +98,26 @@ a {
     /* margin-bottom: 1em; */
 
 }
+
+button.button_resume {
+    background-color: #00DAD9;
+    color:#ffff;
+    border-radius: 30px; 
+    border: none;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.button_resume {
+    transition-duration: 0.4s;
+}
+
+.button_resume:hover {
+    background-color: #ffff;
+    color: #00DAD9;
+}
+
 a:link {
     color: #636363;
     border-bottom: 2px solid #00DAD9;
