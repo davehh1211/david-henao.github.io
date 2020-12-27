@@ -1,0 +1,69 @@
+/* ----- header ----*/
+
+header {
+    background: url("../images/imgbrand.png") black;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-height: 600px;
+}
+
+header .menu {
+    margin: 40px 0px;
+    text-align: right;
+}
+
+header .menu a {
+    margin: 0px 20px;
+    color: #ffff;
+    padding-bottom: 9px;
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    font-size: 1em;
+}
+
+header .menu a:hover {
+    /*border-bottom: 2px solid #00DAD9;*/
+    color:#00DAD9;
+}
+
+header .container-text {
+    display: flex;
+    margin: 190px 0;
+    color: #ffff;
+    justify-content: center;
+    align-content: center;
+}
+
+header .container-text .text {
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 60px;
+}
+
+header .container-text .text h1 {
+    color: #ffff;
+    font-weight: 300;
+    margin: 0;
+
+}
+header .container-text .text h2 {
+    color: #00DAD9;
+    font-weight: 300;
+    margin: 0;
+}
+
+header .container-text .text .name {
+    font-size: 50px;
+    margin-bottom: 10px;
+    line-height: 50px;
+    font-family: 'Questrial', sans-serif;
+}
+
+header .container-text .text .proffesion {
+    font-size: 25px;
+    line-height: 25px;
+    font-family: 'Questrial', sans-serif;
+}
